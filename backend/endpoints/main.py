@@ -19,3 +19,7 @@ class Mood(str, Enum):
 @app.get("/getmovies/")
 def getMoviesRecommendation(moods: List[Mood] = Query(...)):
     return moods
+
+@app.get("/test/")
+def getTest():
+    return {"testing": "complete"}
