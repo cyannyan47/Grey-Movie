@@ -2,7 +2,7 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 
-cred=credentials.Certificate('../private/grey-movie-firebase-adminsdk-9561z-75f6d847e7.json')
+cred=credentials.Certificate('../private/grey-movie-firebase-adminsdk-9561z-bb6821a416.json')
 firebase_admin.initialize_app(cred)
 db=firestore.client()
 
@@ -51,4 +51,4 @@ def rec_movies(l):
     return rec_movies
 
 # Test 
-print(rec_movies(list_of_genres(user_moods)))
+#print(rec_movies(list_of_genres(user_moods)))
