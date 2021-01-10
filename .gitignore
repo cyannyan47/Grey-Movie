@@ -131,3 +131,7 @@ dmypy.json
 # Firestore private key
 data/grey-movie-firebase-adminsdk-9561z-8dadf14839.json
 backend/private/
+
+# MAC files
+.DS_Store
+backend/.DS_Store
